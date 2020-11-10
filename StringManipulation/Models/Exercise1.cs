@@ -1,5 +1,4 @@
-﻿using StringManipulation.BusinessLogic;
-using StringManipulation.Interface;
+﻿using StringManipulation.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -52,7 +51,8 @@ namespace StringManipulation.Models
 
         public void RearrangeToDescending()
         {
-           randomNum.Sort();
+            randomNum.Sort((a, b) => a.CompareTo(b)); // ascending
+            randomNum.Sort((a, b) => b.CompareTo(a)); //descending
         }
     }
 }

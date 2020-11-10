@@ -16,6 +16,7 @@
 * 5. Rearrange the list so the numbers are places descending
 
 * 6. Show the sum of all the numbers
+
 */ /* Exercise 2
 * 1. Use the previous list of random numbers and generate a list of random strings, e.g.
 * if the list contains the number 4 then
@@ -27,9 +28,7 @@
 */
 
 
-int[] AskSixInts();
-int[] GenerateRandomNums(int[] nums);
-void PlaceNumsToLists();
+
 
 -interface IExercise1
 void InsertNumbersToList();
